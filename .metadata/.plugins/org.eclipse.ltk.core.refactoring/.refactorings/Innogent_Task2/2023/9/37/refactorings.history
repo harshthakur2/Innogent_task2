@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Innogent_Task2/src/com.task2.p2.file&apos;&#x0D;&#x0A;- Original project: &apos;Innogent_Task2&apos;&#x0D;&#x0A;- Destination element: &apos;Innogent_Task2/src/com.task2.p2.file&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     address.csv&#x0D;&#x0A;     class.csv&#x0D;&#x0A;     Student.csv" description="Copy files" destination="/src&lt;com.task2.p2.file" element1="src/com/task2/file/address.csv" element2="src/com/task2/file/class.csv" element3="src/com/task2/file/Student.csv" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1694420663257" units="0" version="1.0"/>
+</session>

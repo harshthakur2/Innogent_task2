@@ -1,0 +1,61 @@
+import java.io.*;
+import java.util.*;
+
+class Student {
+    // Define Student class fields and methods here
+}
+
+class Class {
+    // Define Class class fields and methods here
+}
+
+class Address {
+    // Define Address class fields and methods here
+}
+
+public class Main {
+    private List<Student> students = new ArrayList<>();
+    private List<Class> classes = new ArrayList<>();
+    private List<Address> addresses = new ArrayList<>();
+
+    public static void main(String[] args) {
+        Main main = new Main();
+        main.uploadStudent("C://student.csv");
+        main.uploadClass("C://class.csv");
+        main.uploadAddress("C://address.csv");
+
+        // Example: Read female students, first 1-9
+        List<Student> result = main.fun1("F", 1, 9);
+        for (Student student : result) {
+            // Process the retrieved students
+        }
+
+        // Example: Find all students of pincode X (e.g., 482002) with filters
+        List<Student> studentsByPincode = main.findStudentsByPincode("482002", "F", 0, 100);
+        for (Student student : studentsByPincode) {
+            // Process the retrieved students
+        }
+    }
+
+    public void uploadStudent(String filePath) {
+        // Implement CSV file reading and populate students list
+    }
+
+    public void uploadClass(String filePath) {
+        // Implement CSV file reading and populate classes list
+    }
+
+    public void uploadAddress(String filePath) {
+        // Implement CSV file reading and populate addresses list
+    }
+
+    public List<Student> fun1(String gender, int pageNo, int pageSize) {
+        // Implement pagination logic for retrieving female students
+        return Collections.emptyList(); // Placeholder
+    }
+
+    public List<Student> findStudentsByPincode(String pincode, String gender, int ageMin, int ageMax) {
+        // Implement logic to find students by pin code and apply filters
+        return Collections.emptyList(); // Placeholder
+    }
+}
